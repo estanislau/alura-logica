@@ -1,0 +1,50 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    function mostra(evariavel) {    // "function" chama "mostra" que é executado e então "evariavel" recebe o resultado que 
+        document.write(evariavel);  // é apresentado por "document.write(evariavel)"
+        pulaLinha();                // e "pulaLinha" chama "document.write("<br>"), da função anterior, que fornecendo gera um espaçamento de linha.
+    }
+
+    var titulo = "Bem-vindo ao meu programa!";
+
+    mostra("<h1>" + titulo + "</h1>");
+
+    mostra("Vocês não sabem o que tive que aprender para fazer isso!");
+
+    mostra("Contudo, assistindo os vídeos e estudando ...");
+
+    mostra("Eu vou mais longe!");
+
+    pulaLinha();
+</script>
+
+
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+
+        document.write("<br><br>");
+    }
+
+    var titulo = "Bem-vindo ao meu programa!";
+
+    document.write("<h1>" + titulo + "</h1>");
+
+    pulaLinha();
+
+    document.write("Vocês não sabem o que tive que aprender para fazer isso!");
+
+    pulaLinha();
+
+    document.write("Contudo, assistindo os vídeos e estudando ...");
+
+    pulaLinha();
+
+    document.write("Eu vou mais longe!");
+
+    pulaLinha();
+</script>

@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+function pulaLinha() {
+	document.write("<br>");
+	document.write("<br>");
+	
+} 
+
+function mostra(evariavel){ 	// function chama "mostra" que é executado, "evariavel" recebe o resultado que é apresentado por "document.write"
+	document.write(evariavel);
+	pulaLinha(); 				// uma função pode ter como instrução a chamada de outra função
+}
+
+	var ano = 2016;
+
+	mostra("Flávio tem " + (ano - 1977) + " anos");
+	mostra("Joaquim tem " + (ano - 1996) + " anos");
+	ano = 2017;
+	mostra("Barney tem " + (ano - 1976) + " anos");
+				   
+</script>
+
+
+
+
